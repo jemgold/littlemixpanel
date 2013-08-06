@@ -3,7 +3,7 @@ var express = require('express')
   , littleprinter = require('littleprinter')
   , asciify = require('asciify')
   , _ = require('underscore')
-  , Mixpanel = require('./lib/mixpanel-cli.js');
+  , Mixpanel = require('mixpanel-data');
 
 var app = express();
 var port = process.env.PORT || 5000;

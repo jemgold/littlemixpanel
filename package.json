@@ -27,8 +27,7 @@
     "ejs": "0.8.2",
     "express": "3.0.0rc3",
     "littleprinter": "x.x.x",
-    "underscore": "x.x.x",
-    "MD5": "x.x.x",
+    "mixpanel-data": "~0.1.x",
     "asciify": "~1.3.2"
   },
   "engines": {
