@@ -3,6 +3,7 @@ var express = require('express')
   , littleprinter = require('littleprinter')
   , asciify = require('asciify')
   , _ = require('underscore')
+  , md5 = require('MD5')
   , Mixpanel = require('mixpanel-data');
 
 var app = express();
@@ -24,6 +25,13 @@ app.get('/edition', function(req, res) {
     var filteredEvents = _.filter(sortedEvents, function(event) {
       return event.amount !== 0;
     });
+
+    res.set({
+      'Content-Type': 'text/html',
+      'ETag': md5('language' + new Date())
+    });
+
+    res.charset = 'utf-8';
 
     res.render('edition', {
       locals: {
