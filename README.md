@@ -1,14 +1,14 @@
 # littlemixpanel [![Build Status](https://secure.travis-ci.org/jongd/littlemixpanel.png?branch=master)](http://travis-ci.org/jongd/littlemixpanel)
 
-The best module ever.
+IN UR LITTLEPRINTER, GIVIN U STATZ
 
 ## Getting Started
-Install the module with: `npm install littlemixpanel`
 
-```javascript
-var littlemixpanel = require('littlemixpanel');
-littlemixpanel.awesome(); // "awesome"
-```
+Until I release a final version on BERGcloud…
+
+- Add your Mixpanel API keys to .env
+- foreman start
+- open localhost:5000/edition
 
 ## Documentation
 _(Coming soon)_
