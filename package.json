@@ -29,7 +29,8 @@
     "littleprinter": "x.x.x",
     "mixpanel-data": "~0.1.x",
     "asciify": "~1.3.2",
-    "MD5": "x.x.x"
+    "MD5": "x.x.x",
+    "underscore": "x.x.x"
   },
   "engines": {
     "node": "0.10.x",
